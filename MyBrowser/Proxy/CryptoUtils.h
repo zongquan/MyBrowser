@@ -1,9 +1,4 @@
-//
-//  Base64Shift.hpp
-//  PPView
-//
-//  Created by zongquan on 2020/5/22.
-//
+
 
 #ifndef CryptoUtils
 #define CryptoUtils

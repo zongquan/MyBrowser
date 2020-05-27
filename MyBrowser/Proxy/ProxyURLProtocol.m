@@ -202,8 +202,6 @@ static NSString *proxyServer = @"10.10.36.235:8058";
     } else {
         [challenge.sender cancelAuthenticationChallenge:challenge];
     }
-    
-    //[self.client URLProtocol:self didReceiveAuthenticationChallenge:challenge];
 }
 
 @end
