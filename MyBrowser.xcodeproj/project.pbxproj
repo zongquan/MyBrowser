@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB45D972247AB7A600B3F495 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB45D961247AB7A600B3F495 /* WebViewJavascriptBridge.js.txt */; };
+		BB45D973247AB7A600B3F495 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D962247AB7A600B3F495 /* WebViewJavascriptBridge.m */; };
+		BB45D974247AB7A600B3F495 /* WKPagesCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D966247AB7A600B3F495 /* WKPagesCollectionView.m */; };
+		BB45D975247AB7A600B3F495 /* WKPagesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D968247AB7A600B3F495 /* WKPagesCollectionViewCell.m */; };
+		BB45D976247AB7A600B3F495 /* WKPagesCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D96A247AB7A600B3F495 /* WKPagesCollectionViewFlowLayout.m */; };
+		BB45D977247AB7A600B3F495 /* ListUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D96D247AB7A600B3F495 /* ListUIWebViewController.m */; };
+		BB45D978247AB7A600B3F495 /* MyUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D96F247AB7A600B3F495 /* MyUIWebView.m */; };
+		BB45D979247AB7A600B3F495 /* MyUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D971247AB7A600B3F495 /* MyUIWebViewController.m */; };
+		BB45D98A247BB66100B3F495 /* CacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D985247BB66000B3F495 /* CacheStoragePolicy.m */; };
+		BB45D98B247BB66100B3F495 /* CryptoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D987247BB66100B3F495 /* CryptoUtils.m */; };
+		BB45D98C247BB66100B3F495 /* ProxyURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D989247BB66100B3F495 /* ProxyURLProtocol.m */; };
+		BB45D98E247BBAA400B3F495 /* ProxyConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D98D247BBAA400B3F495 /* ProxyConfig.m */; };
+		BB45D98F247BBAA400B3F495 /* ProxyConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D98D247BBAA400B3F495 /* ProxyConfig.m */; };
+		BB45D995247BBF2200B3F495 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB45D994247BBF2200B3F495 /* Foundation.framework */; };
 		BEF060B642E9E8D71A6BFE5E /* MyWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF065D6BFB420DE9C4CD621 /* MyWKWebView.m */; };
 		BEF0610BA9CB281BD20B4091 /* failedPage.htm in Resources */ = {isa = PBXBuildFile; fileRef = BEF0626975F3F99574A0BFF9 /* failedPage.htm */; };
 		BEF06301D1492CA168007FA7 /* failedPage.htm in Resources */ = {isa = PBXBuildFile; fileRef = BEF0626975F3F99574A0BFF9 /* failedPage.htm */; };
@@ -93,6 +107,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB45D960247AB7A600B3F495 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		BB45D961247AB7A600B3F495 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		BB45D962247AB7A600B3F495 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		BB45D964247AB7A600B3F495 /* WK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WK.h; sourceTree = "<group>"; };
+		BB45D965247AB7A600B3F495 /* WKPagesCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKPagesCollectionView.h; sourceTree = "<group>"; };
+		BB45D966247AB7A600B3F495 /* WKPagesCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKPagesCollectionView.m; sourceTree = "<group>"; };
+		BB45D967247AB7A600B3F495 /* WKPagesCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKPagesCollectionViewCell.h; sourceTree = "<group>"; };
+		BB45D968247AB7A600B3F495 /* WKPagesCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKPagesCollectionViewCell.m; sourceTree = "<group>"; };
+		BB45D969247AB7A600B3F495 /* WKPagesCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKPagesCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		BB45D96A247AB7A600B3F495 /* WKPagesCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKPagesCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		BB45D96C247AB7A600B3F495 /* ListUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListUIWebViewController.h; sourceTree = "<group>"; };
+		BB45D96D247AB7A600B3F495 /* ListUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListUIWebViewController.m; sourceTree = "<group>"; };
+		BB45D96E247AB7A600B3F495 /* MyUIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIWebView.h; sourceTree = "<group>"; };
+		BB45D96F247AB7A600B3F495 /* MyUIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIWebView.m; sourceTree = "<group>"; };
+		BB45D970247AB7A600B3F495 /* MyUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIWebViewController.h; sourceTree = "<group>"; };
+		BB45D971247AB7A600B3F495 /* MyUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIWebViewController.m; sourceTree = "<group>"; };
+		BB45D984247BB66000B3F495 /* CacheStoragePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheStoragePolicy.h; sourceTree = "<group>"; };
+		BB45D985247BB66000B3F495 /* CacheStoragePolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheStoragePolicy.m; sourceTree = "<group>"; };
+		BB45D986247BB66100B3F495 /* CryptoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoUtils.h; sourceTree = "<group>"; };
+		BB45D987247BB66100B3F495 /* CryptoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoUtils.m; sourceTree = "<group>"; };
+		BB45D988247BB66100B3F495 /* ProxyURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyURLProtocol.h; sourceTree = "<group>"; };
+		BB45D989247BB66100B3F495 /* ProxyURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyURLProtocol.m; sourceTree = "<group>"; };
+		BB45D98D247BBAA400B3F495 /* ProxyConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyConfig.m; sourceTree = "<group>"; };
+		BB45D990247BBAC500B3F495 /* ProxyConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyConfig.h; sourceTree = "<group>"; };
+		BB45D992247BBF0600B3F495 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		BB45D994247BBF2200B3F495 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB45D996247BBF4700B3F495 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		BEF0604A7CB246CE8F65C5F3 /* MyWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWKWebViewController.h; sourceTree = "<group>"; };
 		BEF060A0A12F0C6316C3E7A6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BEF060BA618069CAA9C55A7B /* MyPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPopupView.h; sourceTree = "<group>"; };
@@ -127,7 +168,7 @@
 		EA1AFCA21B56A09600530DCB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA1AFCA31B56A09600530DCB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EA3495781B58C3D0005746BF /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
-		EA8ED52C1B3D245F00168B69 /* MyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8ED52C1B3D245F00168B69 /* AIBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8ED5301B3D245F00168B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA8ED5311B3D245F00168B69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA8ED5331B3D245F00168B69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -219,6 +260,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB45D995247BBF2200B3F495 /* Foundation.framework in Frameworks */,
 				EAEA848A1B67308E00EE4667 /* SystemConfiguration.framework in Frameworks */,
 				EA8ED5981B3D2FF700168B69 /* WebKit.framework in Frameworks */,
 			);
@@ -243,6 +285,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB45D95F247AB7A600B3F495 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				BB45D960247AB7A600B3F495 /* WebViewJavascriptBridge.h */,
+				BB45D961247AB7A600B3F495 /* WebViewJavascriptBridge.js.txt */,
+				BB45D962247AB7A600B3F495 /* WebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		BB45D963247AB7A600B3F495 /* WKPagesCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				BB45D964247AB7A600B3F495 /* WK.h */,
+				BB45D965247AB7A600B3F495 /* WKPagesCollectionView.h */,
+				BB45D966247AB7A600B3F495 /* WKPagesCollectionView.m */,
+				BB45D967247AB7A600B3F495 /* WKPagesCollectionViewCell.h */,
+				BB45D968247AB7A600B3F495 /* WKPagesCollectionViewCell.m */,
+				BB45D969247AB7A600B3F495 /* WKPagesCollectionViewFlowLayout.h */,
+				BB45D96A247AB7A600B3F495 /* WKPagesCollectionViewFlowLayout.m */,
+			);
+			path = WKPagesCollectionView;
+			sourceTree = "<group>";
+		};
+		BB45D96B247AB7A600B3F495 /* UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				BB45D96C247AB7A600B3F495 /* ListUIWebViewController.h */,
+				BB45D96D247AB7A600B3F495 /* ListUIWebViewController.m */,
+				BB45D96E247AB7A600B3F495 /* MyUIWebView.h */,
+				BB45D96F247AB7A600B3F495 /* MyUIWebView.m */,
+				BB45D970247AB7A600B3F495 /* MyUIWebViewController.h */,
+				BB45D971247AB7A600B3F495 /* MyUIWebViewController.m */,
+			);
+			path = UIWebView;
+			sourceTree = "<group>";
+		};
+		BB45D983247BB66000B3F495 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				BB45D984247BB66000B3F495 /* CacheStoragePolicy.h */,
+				BB45D985247BB66000B3F495 /* CacheStoragePolicy.m */,
+				BB45D986247BB66100B3F495 /* CryptoUtils.h */,
+				BB45D987247BB66100B3F495 /* CryptoUtils.m */,
+				BB45D988247BB66100B3F495 /* ProxyURLProtocol.h */,
+				BB45D989247BB66100B3F495 /* ProxyURLProtocol.m */,
+				BB45D990247BBAC500B3F495 /* ProxyConfig.h */,
+				BB45D98D247BBAA400B3F495 /* ProxyConfig.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		BB45D991247BBF0600B3F495 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB45D996247BBF4700B3F495 /* libc++.1.tbd */,
+				BB45D994247BBF2200B3F495 /* Foundation.framework */,
+				BB45D992247BBF0600B3F495 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BEF06054E22A8B1E979B7101 /* NFCollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,13 +434,14 @@
 				BEF06054E22A8B1E979B7101 /* NFCollectionView */,
 				EA3495781B58C3D0005746BF /* doc */,
 				EAC039871BB1316500A2E617 /* E_MyBrowser-Info.plist */,
+				BB45D991247BBF0600B3F495 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		EA8ED52D1B3D245F00168B69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA8ED52C1B3D245F00168B69 /* MyBrowser.app */,
+				EA8ED52C1B3D245F00168B69 /* AIBrowser.app */,
 				EA8ED5451B3D245F00168B69 /* MyBrowserTests.xctest */,
 				EAC039861BB1316500A2E617 /* E_MyBrowser.app */,
 			);
@@ -346,6 +451,10 @@
 		EA8ED52E1B3D245F00168B69 /* MyBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				BB45D983247BB66000B3F495 /* Proxy */,
+				BB45D96B247AB7A600B3F495 /* UIWebView */,
+				BB45D95F247AB7A600B3F495 /* WebViewJavascriptBridge */,
+				BB45D963247AB7A600B3F495 /* WKPagesCollectionView */,
 				BEF064ACDA730F1175F8873A /* MyUtils */,
 				BEF06B1AADF1E5E73F7A6C85 /* Model */,
 				BEF067C3ECF2977756167AEB /* CustomView */,
@@ -419,9 +528,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA8ED52B1B3D245F00168B69 /* MyBrowser */ = {
+		EA8ED52B1B3D245F00168B69 /* AIBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA8ED54F1B3D245F00168B69 /* Build configuration list for PBXNativeTarget "MyBrowser" */;
+			buildConfigurationList = EA8ED54F1B3D245F00168B69 /* Build configuration list for PBXNativeTarget "AIBrowser" */;
 			buildPhases = (
 				EA8ED5281B3D245F00168B69 /* Sources */,
 				EA8ED5291B3D245F00168B69 /* Frameworks */,
@@ -431,9 +540,9 @@
 			);
 			dependencies = (
 			);
-			name = MyBrowser;
+			name = AIBrowser;
 			productName = MyBrowser;
-			productReference = EA8ED52C1B3D245F00168B69 /* MyBrowser.app */;
+			productReference = EA8ED52C1B3D245F00168B69 /* AIBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EA8ED5441B3D245F00168B69 /* MyBrowserTests */ = {
@@ -482,14 +591,16 @@
 				TargetAttributes = {
 					EA8ED52B1B3D245F00168B69 = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = G3A2KYKYBU;
+						DevelopmentTeam = HULM5J32PB;
+						ProvisioningStyle = Automatic;
 					};
 					EA8ED5441B3D245F00168B69 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = HULM5J32PB;
 						TestTargetID = EA8ED52B1B3D245F00168B69;
 					};
 					EAC039661BB1316500A2E617 = {
-						DevelopmentTeam = G3A2KYKYBU;
+						DevelopmentTeam = HULM5J32PB;
 					};
 				};
 			};
@@ -498,6 +609,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				"zh-Hans",
@@ -519,7 +631,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA8ED52B1B3D245F00168B69 /* MyBrowser */,
+				EA8ED52B1B3D245F00168B69 /* AIBrowser */,
 				EA8ED5441B3D245F00168B69 /* MyBrowserTests */,
 				EAC039661BB1316500A2E617 /* E_MyBrowser */,
 			);
@@ -533,6 +645,7 @@
 			files = (
 				EAA8BE571C5A0DCD003583DF /* adBlocker.js in Resources */,
 				EAA8BE5D1C5A0DCD003583DF /* DocEndInjection.js in Resources */,
+				BB45D972247AB7A600B3F495 /* WebViewJavascriptBridge.js.txt in Resources */,
 				EAA8BE631C5A0DCD003583DF /* JSTool.js in Resources */,
 				EA8ED57C1B3D2C0A00168B69 /* LaunchScreen.xib in Resources */,
 				EA8ED5871B3D2CA100168B69 /* Main.storyboard in Resources */,
@@ -588,23 +701,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA8ED5351B3D245F00168B69 /* AppDelegate.m in Sources */,
+				BB45D973247AB7A600B3F495 /* WebViewJavascriptBridge.m in Sources */,
 				EA8ED5321B3D245F00168B69 /* main.m in Sources */,
+				BB45D974247AB7A600B3F495 /* WKPagesCollectionView.m in Sources */,
 				EA8ED5B01B3D30E400168B69 /* SettingViewController.m in Sources */,
+				BB45D98B247BB66100B3F495 /* CryptoUtils.m in Sources */,
 				BEF0651048BE2708D6A0CD01 /* MyPopupView.m in Sources */,
 				BEF0692127DD039DD0BFB93B /* ScanQRViewController.m in Sources */,
 				BEF0675846B2093BA142E53C /* MyHelper.m in Sources */,
 				BEF066B89A7E7B0381911DEA /* Favorite.m in Sources */,
 				BEF0684ECA0BAEF70E62AA2E /* ViewController.m in Sources */,
 				BEF06A87BF053D11BA51B903 /* MyWKWebViewController.m in Sources */,
+				BB45D98E247BBAA400B3F495 /* ProxyConfig.m in Sources */,
 				BEF060B642E9E8D71A6BFE5E /* MyWKWebView.m in Sources */,
 				BEF069A5732CC7282F98DEF5 /* BaseWebViewController.m in Sources */,
+				BB45D978247AB7A600B3F495 /* MyUIWebView.m in Sources */,
 				BEF067080564FFE835507A75 /* ListWKWebViewController.m in Sources */,
+				BB45D98C247BB66100B3F495 /* ProxyURLProtocol.m in Sources */,
 				BEF063194BEB8E33FF7DE0B9 /* FavoritesViewController.m in Sources */,
+				BB45D976247AB7A600B3F495 /* WKPagesCollectionViewFlowLayout.m in Sources */,
 				BEF06A4A6E170BA3329A4E49 /* NFTabCollectionViewCell.m in Sources */,
 				BEF06B6DB0CE04F179EA8BC3 /* NFCollectionViewTabsLayout.m in Sources */,
+				BB45D979247AB7A600B3F495 /* MyUIWebViewController.m in Sources */,
 				BEF063AB8D4F9556A0087AE5 /* Reachability.m in Sources */,
 				BEF064B15BBAE39B760A7FDF /* UserSetting.m in Sources */,
 				EA9D5B011C589B3700551AC8 /* RegExCategories.m in Sources */,
+				BB45D977247AB7A600B3F495 /* ListUIWebViewController.m in Sources */,
+				BB45D98A247BB66100B3F495 /* CacheStoragePolicy.m in Sources */,
+				BB45D975247AB7A600B3F495 /* WKPagesCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +747,7 @@
 				EAC039681BB1316500A2E617 /* AppDelegate.m in Sources */,
 				EAC039691BB1316500A2E617 /* main.m in Sources */,
 				EAC0396A1BB1316500A2E617 /* SettingViewController.m in Sources */,
+				BB45D98F247BBAA400B3F495 /* ProxyConfig.m in Sources */,
 				EAC0396B1BB1316500A2E617 /* MyPopupView.m in Sources */,
 				EAC0396C1BB1316500A2E617 /* ScanQRViewController.m in Sources */,
 				EAC0396D1BB1316500A2E617 /* MyHelper.m in Sources */,
@@ -646,7 +771,7 @@
 /* Begin PBXTargetDependency section */
 		EA8ED5471B3D245F00168B69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA8ED52B1B3D245F00168B69 /* MyBrowser */;
+			target = EA8ED52B1B3D245F00168B69 /* AIBrowser */;
 			targetProxy = EA8ED5461B3D245F00168B69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -829,12 +954,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = NO;
+				CLANG_ANALYZER_USE_AFTER_MOVE = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HULM5J32PB;
 				INFOPLIST_FILE = MyBrowser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.riversecx.browser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bcf11663-6151-470d-86c2-cf3fbb2a7e2b";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -842,13 +974,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Wei Luo (G3A2KYKYBU)";
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = NO;
+				CLANG_ANALYZER_USE_AFTER_MOVE = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HULM5J32PB;
 				INFOPLIST_FILE = MyBrowser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.riversecx.browser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bcf11663-6151-470d-86c2-cf3fbb2a7e2b";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -856,6 +994,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HULM5J32PB;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -875,6 +1014,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HULM5J32PB;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -891,6 +1031,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HULM5J32PB;
 				INFOPLIST_FILE = "E_MyBrowser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -904,6 +1045,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HULM5J32PB;
 				INFOPLIST_FILE = "E_MyBrowser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -924,7 +1066,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA8ED54F1B3D245F00168B69 /* Build configuration list for PBXNativeTarget "MyBrowser" */ = {
+		EA8ED54F1B3D245F00168B69 /* Build configuration list for PBXNativeTarget "AIBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA8ED5501B3D245F00168B69 /* Debug */,

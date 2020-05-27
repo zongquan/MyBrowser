@@ -18,6 +18,7 @@
 @property(nonatomic, strong) UIBarButtonItem *forwardBtn;
 @property(nonatomic, strong) UIBarButtonItem *reloadBtn;
 @property(nonatomic, strong) UIProgressView *progressView;
+@property(nonatomic, strong) UIBarButtonItem *proxyBtn;
 
 @property(nonatomic, strong) UIButton *addWebViewBtn;
 @property(nonatomic, strong) UIBarButtonItem *homeBtn;

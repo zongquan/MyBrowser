@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "MyWKWebViewController.h"
+#import "MyUIWebViewController.h"
+#import "ProxyURLProtocol.h"
 
 @interface AppDelegate ()
 
@@ -20,10 +22,17 @@
     // Override point for customization after application launch.
 
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-
-    //加载WKWebView
-    MyWKWebViewController *wkWebController = [MyWKWebViewController new];
-    _navigationViewController = [[UINavigationController alloc] initWithRootViewController:wkWebController];
+    
+    bool isUIWebview = false;
+    BaseWebViewController *webController;
+    if (isUIWebview) {
+        webController = [MyUIWebViewController new];
+        [NSURLProtocol registerClass:ProxyURLProtocol.class];
+    } else {
+        webController = [MyWKWebViewController new];
+    }
+    
+    _navigationViewController = [[UINavigationController alloc] initWithRootViewController:webController];
 
     _window.rootViewController = _navigationViewController;
     [_window makeKeyAndVisible];

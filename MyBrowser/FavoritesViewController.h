@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class MyWKWebView;
+@class MyUIWebView;
 
 @interface FavoritesViewController : UIViewController
 
@@ -19,7 +20,7 @@
 @property(nonatomic, strong) UISegmentedControl *segmentedControl;
 @property(nonatomic, copy) void (^loadRequestBlock)(NSURL *);
 
-
+@property(nonatomic, copy) void (^getCurrentUIWebViewBlock)(MyUIWebView  **);
 @property(nonatomic, copy) void (^getCurrentWKWebViewBlock)(MyWKWebView **);
 
 
